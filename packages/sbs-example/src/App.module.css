@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+.illustration {
+  min-width: 30%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
