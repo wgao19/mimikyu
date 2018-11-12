@@ -10,10 +10,10 @@ import Context from "../../context";
 type ContainerProps = {
   // main thread decides scroll position
   main: Object,
-  thread: Array<number>
+  thread: Array<number>,
 
   // may generalize to any number of illustrations
-  illustration: Object,
+  illustration: Object
 };
 
 class Container extends React.Component {
